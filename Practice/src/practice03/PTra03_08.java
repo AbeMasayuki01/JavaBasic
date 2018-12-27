@@ -36,5 +36,22 @@ public class PTra03_08 {
 		 * ※ プログラムは何行書いても良いです
 		 */
 
+		switch (num) {
+		case 1:
+				System.out.println("オレンジジュースを購入");
+				int sum = money - 150;
+				System.out.println("今の所持金は" + sum + "円です");
+				break;
+		case 2:
+			System.out.println("リンゴジュースを購入");
+			int sum1 = money - 160;
+			System.out.println("今の所持金は" + sum1 + "円です");
+			break;
+		case 3:
+			System.out.println("コーヒーを購入");
+			int sum2 = money - 200;
+			System.out.println("今の所持金は" + sum2 + "円です");
+			break;
+		}
 	}
 }

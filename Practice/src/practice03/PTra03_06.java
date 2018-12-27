@@ -26,5 +26,15 @@ public class PTra03_06 {
 		 * ※ プログラムは何行書いても良いです
 		 */
 
+		if (random >= 71) {
+			System.out.println("勝ち組");
+		}
+		else if (random >=31){
+			System.out.println("負け組");
+		}
+		else {
+			System.out.println("目も当てられない");
+		}
+
 	}
 }
