@@ -18,11 +18,21 @@ public class PTra07_01 {
 
 
 		// ★ 変数arrayにそれぞれ、[1,4,7,10,13] を代入してください
-		int[] array = {1,4,7,10,13};
+		array[0] = 1;
+		array[1] = 4;
+		array[2] = 7;
+		array[3] = 10;
+		array[4] = 13;
+
 
 
 		// ★ 変数arrayに格納されている値を前から順番に全て表示してください
-		System.out.println(array.length);
+		for(int i = 0; i<array.length; i++) {
+
+		System.out.println(array[i]);
+
+		}
+
 
 
 	}
