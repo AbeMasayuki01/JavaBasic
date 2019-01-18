@@ -6,7 +6,7 @@
  */
 package practice15.common;
 
-public class Java2Month extends Room {
+public class Java2Month extends Room{
 
 	/**
 	 * カリキュラムを取得します

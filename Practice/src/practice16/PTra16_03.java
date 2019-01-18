@@ -15,10 +15,20 @@ public class PTra16_03 {
 	 * 	・親クラス（Objectクラス）のtoStringの処理を行ってください
 	 *	・その後、改行をして「PTra16_03#toString()の処理」という文字列を連結してください
 	 */
-
+	@Override
+	public String toString() {
+		//親クラスから継承したメソッドを使うにはsuperつける。
+		return super.toString() + "\nPTra16_03#toString()の処理";
+	}
 	public static void main(String[] args) {
 
 		// ★ PTra16_03クラスのtoStringメソッドの内容を出力してください
+		//toStringメソッドはstaticでhなくインスタ所有なのでインスタ作るよ
+		PTra16_03 str= new PTra16_03();
+		//インスタstrが上のtoStringメソッドを実行しました。戻り値"super.toString"~;までが返ってきました。それをString aに代入します。
+		String a = str.toString();
+		//代入された値を出力するぜ
+		System.out.println(a);
 
 	}
 }

@@ -6,6 +6,7 @@
  */
 package practice13.common;
 
+
 /**
  * 動物の情報や行動を持ったクラスです
  * @author rhizome
